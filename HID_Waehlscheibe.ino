@@ -9,8 +9,8 @@ Bounce scheibedreht = Bounce();
 
 void setup()
 {
-	pinMode(NSApin, INPUT_PULLUP);  // Set the button as an input
-	pinMode(NSIpin, INPUT_PULLUP);  // Set the button as an input
+  pinMode(NSApin, INPUT_PULLUP);  // Set the button as an input
+  pinMode(NSIpin, INPUT_PULLUP);  // Set the button as an input
   pinMode(LED_BUILTIN,OUTPUT);
 
   waehlpulse.attach(NSIpin);
